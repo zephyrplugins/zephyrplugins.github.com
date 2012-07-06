@@ -1,69 +1,63 @@
-<!DOCTYPE html>
-<html>
+--- 
+title: Home 
+layout: default 
+---
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Zephyrplugins.github.com : " />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+<h1>Introduction to Zephyr</h1>
+<p>
+	There are two common ways to debug code. The first way is to use a
+	debugger to check the state of the code at a given point in time and
+	trace code execution. The second way is to use <span class='code'>print</span>
+	statements (or more generally log files) to trace events when they
+	happen. <b>Zephyr</b> proposes a third easy way. <br /> <br /> <b>Zephyr</b>
+	is a software for Java to visualize over time the value of code
+	variables. At runtime, Zephyr uses Java reflexivity to parse the code
+	and register objects and data to be visualized. Through a generic
+	graphical user interface, developers can then browse and monitor at
+	different time-scale the data while the code is running. Zephyr is an
+	online debugger particularly suited for simulations, games or online
+	numerical computations. <br /> <br /> Zephyr is distributed as a
+	standalone executable to run Java jars, Python or Clojure scripts, and as a
+	collection of Eclipse plugins to integrate with Eclipse RCP
+	applications for debugging.
+</p>
+<div align="center">
 
-    <title>Zephyrplugins.github.com</title>
-  </head>
+	<iframe width="420" height="315"
+		src="http://www.youtube.com/embed/t_fq6I1mL8E?rel=0" frameborder="0"
+		allowfullscreen="true">
+	</iframe>
+</div>
 
-  <body>
+<h3>Introduction tutorials</h3>
+<ul>
+	<li><a href='tutorial_logfiles.html'>Read large log files</a> with
+		Zephyr</li>
+	<li><a href='tutorial_jython.html'>Zephyr for Python (Jython)</a></li>
+	<li><a href='tutorial_clojure.html'>Zephyr for Clojure </a></li>
+	<li><a href='tutorial_java.html'>Zephyr for Java </a></li>
+</ul>
+<a href='tutorials.html'>More tutorials</a>
+<h3>Download<a
+		href='http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=135157'
+		title='Drag and drop into a running Eclipse workspace to install Zephyr'>
+		<img border="0" height="16"
+		src='http://marketplace.eclipse.org/misc/installbutton.png' />
+	</a>
+</h3>
+<ul>
+	<li><a href='download.html'>Binaries</a> for Mac OS X, Windows,
+		Linux</li>
+	<li>The <a href="https://github.com/ThomasDegris/Zephyr">source
+			code</a> is available on github
+</ul>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/zephyrplugins">View on GitHub</a>
-
-          <h1 id="project_title">Zephyrplugins.github.com</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+<h3>Links:</h3>
+<ul>
+	<li>Zephyr was developed for experiments in Reinforcement Learning with <a href="http://thomasdegris.github.com/rlpark">RLPark</a>
+	and is an unexpected outcome of the <a href="http://critterbot.rl-community.org/home">Critterbot project</a>.
+	</li>  
+	<li>I discovered the product <a href="http://www.chrononsystems.com">Chronon</a>. It is interesting and complementary to Zephyr.</li>
+	<li>Zephyr on the <a href='http://marketplace.eclipse.org/content/zephyr'>Eclipse marketplace</a></li> 
+</ul>

@@ -55,7 +55,7 @@ object that can provide a view (i.e. a view ID represented as a string) for a gi
 		and then <span class='menu'>New-&gt;client</span></li>
 	<li>In the new client, on the right, set the class to use as a
 		view provider. The class needs to implement the interface <a
-		href="https://github.com/ThomasDegris/Zephyr/blob/master/zephyr.plugin.core/src/zephyr/plugin/core/views/ViewProvider.java"><span
+		href="https://github.com/zephyrplugins/zephyr/blob/master/zephyr.plugin.core/src/zephyr/plugin/core/views/ViewProvider.java"><span
 			class='code'>zephyr.plugin.core.views.ViewProvider</span></a><br/>
 	</li>
 </ol>
@@ -63,7 +63,7 @@ See the documentation of the interface
 <span class='code'>ViewProvider</span>
 to implement its methods. Note that you can extend the class
 <a
-	href="https://github.com/ThomasDegris/Zephyr/blob/master/zephyr.plugin.core/src/zephyr/plugin/core/helpers/ClassViewProvider.java"><span
+	href="https://github.com/zephyrplugins/zephyr/blob/master/zephyr.plugin.core/src/zephyr/plugin/core/helpers/ClassViewProvider.java"><span
 	class='code'><span class='code'>zephyr.plugin.core.helpers.ClassViewProvider</span></span></a>
 where the constructor takes two arguments: a class and a view id (a
 string). Such provider will return the view id for any object instance
@@ -71,7 +71,7 @@ of the class given to the constructor.
 <br/>
 <br/>
 See the internal class Provider of the class
-<a href="https://github.com/ThomasDegris/Zephyr/blob/master/zephyr.example.simpleview/src/zephyr/example/simpleview/SimpleView.java#L13">SimpleView$Provider</a>
+<a href="https://github.com/zephyrplugins/zephyr/blob/master/zephyr.example.simpleview/src/zephyr/example/simpleview/SimpleView.java#L13">SimpleView$Provider</a>
 for an example.
 
 
@@ -96,7 +96,7 @@ to deal with common threading issues:
 </ul>
 What Zephyr proposes is the
 <a
-	href="https://github.com/ThomasDegris/Zephyr/blob/master/zephyr.plugin.core/src/zephyr/plugin/core/views/SyncView.java"><span
+	href="https://github.com/zephyrplugins/zephyr/blob/master/zephyr.plugin.core/src/zephyr/plugin/core/views/SyncView.java"><span
 	class='code'>zephyr.plugin.core.views.SyncView</span></a>
 interface. This interface has two methods that the view needs to
 implement:
@@ -117,7 +117,7 @@ The
 interface is great for synchronizing data but the view still does not
 know about what object to display. For this, Zephyr uses the interface
 <a
-	href="https://github.com/ThomasDegris/Zephyr/blob/master/zephyr.plugin.core/src/zephyr/plugin/core/views/ProvidedView.java"><span
+	href="https://github.com/zephyrplugins/zephyr/blob/master/zephyr.plugin.core/src/zephyr/plugin/core/views/ProvidedView.java"><span
 	class='code'>zephyr.plugin.core.views.ProvidedView</span></a>
 to add or remove object to display for the view. See the documentation
 of the interface for more information. Note that
@@ -129,7 +129,7 @@ inherits from
 <br/>
 For a complete working example, see the class
 <a
-	href="https://github.com/ThomasDegris/Zephyr/blob/master/zephyr.example.simpleview/src/zephyr/example/simpleview/SimpleView.java"><span
+	href="https://github.com/zephyrplugins/zephyr/blob/master/zephyr.example.simpleview/src/zephyr/example/simpleview/SimpleView.java"><span
 	class='code'>SimpleView</span></a>
 
 
@@ -162,7 +162,7 @@ Finally, classes in Zephyr can be good examples for how to implement synchronize
 	<li>Source a Zephyr example project with one class to modify data, one class to display it in a view: <a
 		href="http://www.ualberta.ca/%7Edegris/examples/zephyr.example.simpleview.tar.gz">http://www.ualberta.ca/~degris/examples/zephyr.example.simpleview.tar.gz</a></li>
 	<li>The same <a
-		href="https://github.com/ThomasDegris/Zephyr/tree/master/zephyr.example.simpleview">example project</a> on github<br/>
+		href="https://github.com/zephyrplugins/zephyr/tree/master/zephyr.example.simpleview">example project</a> on github<br/>
 	</li>
 	<li>Creating Eclipse plugins: <a
 		href="http://www.vogella.de/articles/EclipsePlugIn/article.html">http://www.vogella.de/articles/EclipsePlugIn/article.html</a></li>

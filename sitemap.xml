@@ -3,15 +3,33 @@
          xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
          xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <url>
-     <loc>http://thomasdegris.github.com/zephyr/index.html</loc>
+     <loc>http://zephyrplugins.github.com/index.html</loc>
    </url>
    <url>
-     <loc>http://thomasdegris.github.com/zephyr/download.html</loc>
+     <loc>http://zephyrplugins.github.com/download.html</loc>
    </url>
    <url>
-     <loc>http://thomasdegris.github.com/zephyr/screenshots.html</loc>
+     <loc>http://zephyrplugins.github.com/screenshots.html</loc>
    </url>
    <url>
-     <loc>http://thomasdegris.github.com/zephyr/tutorials.html</loc>
+     <loc>http://zephyrplugins.github.com/tutorials.html</loc>
+   </url>
+   <url>
+     <loc>http://zephyrplugins.github.com/tutorial_view.html</loc>
+   </url>
+   <url>
+     <loc>http://zephyrplugins.github.com/tutorial_plugins.html</loc>
+   </url>
+   <url>
+     <loc>http://zephyrplugins.github.com/tutorial_logfiles.html</loc>
+   </url>
+   <url>
+     <loc>http://zephyrplugins.github.com/tutorial_jython.html</loc>
+   </url>
+   <url>
+     <loc>http://zephyrplugins.github.com/tutorial_java.html</loc>
+   </url>
+   <url>
+     <loc>http://zephyrplugins.github.com/tutorial_clojure.html</loc>
    </url>
 </urlset>
